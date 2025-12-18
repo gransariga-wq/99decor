@@ -64,7 +64,7 @@ const routes: Routes = [
       { path: 'core/blog-main', component: BlogMainComponent },
       { path: 'core/single-post', component: SinglePostComponent },
       { path: 'core/contact-1', component: Contact1Component },
-      { path: 'core/contact-1', component: Contact2Component },
+      { path: 'core/contact-2', component: Contact2Component },
     // ]
   // },
 
