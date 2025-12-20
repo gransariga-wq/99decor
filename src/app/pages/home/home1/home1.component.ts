@@ -18,10 +18,12 @@ export class Home1Component implements AfterViewInit {
       $('.bxslider').bxSlider({
         mode: 'fade',
         auto: true,
-        pause: 5000,
-        speed: 800,
-        pager: true,
-        controls: true
+        pause: 8000,
+        speed: 1000,
+        pager: false,
+        controls: true,
+        prevText:'<i class="fa fa-angle-left square BGprime"></i>',
+        nextText:'<i class="fa fa-angle-right square BGprime"></i>'
       });
     }, 0);
   }
