@@ -31,7 +31,8 @@ import { Contact1Component } from './pages/Contact/contact-1/contact-1.component
 import { Contact2Component } from './pages/Contact/contact-2/contact-2.component';
 
 const routes: Routes = [
-   { path: '', redirectTo: 'core/home', pathMatch: 'full' },
+  //  { path: '', redirectTo: 'core/home', pathMatch: 'full' },
+   { path: '', redirectTo: 'core/home3', pathMatch: 'full' },
   // {
   //   path: 'core',
   //   component: HomeComponent,
@@ -68,7 +69,7 @@ const routes: Routes = [
     // ]
   // },
 
-  { path: '**', redirectTo: 'core/home' }
+  { path: '**', redirectTo: 'core/home3' }
 ];
 
 @NgModule({
