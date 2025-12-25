@@ -20,6 +20,7 @@ import { FAQComponent } from './pages/services/faq/faq.component';
 import { ClientsComponent } from './pages/services/clients/clients.component';
 import { PressComponent } from './pages/services/press/press.component';
 import { CarrerComponent } from './pages/services/carrer/carrer.component';
+import { Portfolio1columnComponent } from './pages/portfolio/portfolio1column/portfolio1column.component';
 import { Portfolio2columnComponent } from './pages/portfolio/portfolio2column/portfolio2column.component';
 import { Portfolio3columnComponent } from './pages/portfolio/portfolio3column/portfolio3column.component';
 import { Portfolio4columnComponent } from './pages/portfolio/portfolio4column/portfolio4column.component';
@@ -34,6 +35,15 @@ import { BlogMainComponent } from './pages/Blog/blog-main/blog-main.component';
 import { SinglePostComponent } from './pages/Blog/single-post/single-post.component';
 import { Contact1Component } from './pages/Contact/contact-1/contact-1.component';
 import { Contact2Component } from './pages/Contact/contact-2/contact-2.component';
+import { Team1Component } from './pages/team/team1/team1.component';
+import { TeamSingleComponent } from './pages/team/team-single/team-single.component';
+import { ServicesSingle1Component } from './pages/services/services-single1/services-single1.component';
+import { ServicesSingle2Component } from './pages/services/services-single2/services-single2.component';
+import { ServicesSingle3Component } from './pages/services/services-single3/services-single3.component';
+import { ServicesSingle4Component } from './pages/services/services-single4/services-single4.component';
+import { Team2Component } from './pages/team/team2/team2.component';
+import { TermsComponent } from './pages/terms/terms/terms.component';
+import { PrivacyComponent } from './pages/privacy/privacy/privacy.component';
 
 @NgModule({
   declarations: [
@@ -53,20 +63,30 @@ import { Contact2Component } from './pages/Contact/contact-2/contact-2.component
     SitemapComponent,
     ElementsComponent,
     CarrerComponent,
-    // Portfolio2columnComponent,
-    // Portfolio3columnComponent,
-    // Portfolio4columnComponent,
+    Portfolio2columnComponent,
+    Portfolio3columnComponent,
+    Portfolio4columnComponent,
     PortfolioFullWidthComponent,
-    // PortfolioSingle1Component,
-    // PortfolioSingle2Component,
-    // Gallery4ColumnComponent,
-    // Gallery3ColumnComponent,
-    // Gallery2ColumnComponent,
+    PortfolioSingle1Component,
+    PortfolioSingle2Component,
+    Gallery4ColumnComponent,
+    Gallery3ColumnComponent,
+    Gallery2ColumnComponent,
     GalleryFullWidhtComponent,
     BlogMainComponent,
-    // SinglePostComponent,
+    SinglePostComponent,
     Contact1Component,
-    // Contact2Component,
+    Team1Component,
+    TeamSingleComponent,
+    ServicesSingle1Component,
+    ServicesSingle2Component,
+    ServicesSingle3Component,
+    ServicesSingle4Component,
+    Portfolio1columnComponent,
+    Contact2Component,
+    Team2Component,
+    TermsComponent,
+    PrivacyComponent,
   ],
   imports: [
     BrowserModule,

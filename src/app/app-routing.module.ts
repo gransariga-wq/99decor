@@ -15,6 +15,7 @@ import { CarrerComponent } from './pages/services/carrer/carrer.component';
 import { PressComponent } from './pages/services/press/press.component';
 import { SitemapComponent } from './pages/services/sitemap/sitemap.component';
 import { ElementsComponent } from './pages/services/elements/elements.component';
+import { Portfolio1columnComponent } from './pages/portfolio/portfolio1column/portfolio1column.component';
 import { Portfolio2columnComponent } from './pages/portfolio/portfolio2column/portfolio2column.component';
 import { Portfolio3columnComponent } from './pages/portfolio/portfolio3column/portfolio3column.component';
 import { Portfolio4columnComponent } from './pages/portfolio/portfolio4column/portfolio4column.component';
@@ -29,6 +30,16 @@ import { BlogMainComponent } from './pages/Blog/blog-main/blog-main.component';
 import { SinglePostComponent } from './pages/Blog/single-post/single-post.component';
 import { Contact1Component } from './pages/Contact/contact-1/contact-1.component';
 import { Contact2Component } from './pages/Contact/contact-2/contact-2.component';
+import { Team1Component } from './pages/team/team1/team1.component';
+import { Team2Component } from './pages/team/team2/team2.component';
+import { TeamSingleComponent } from './pages/team/team-single/team-single.component';
+import { ServicesSingle1Component } from './pages/services/services-single1/services-single1.component';
+import { ServicesSingle2Component } from './pages/services/services-single2/services-single2.component';
+import { ServicesSingle3Component } from './pages/services/services-single3/services-single3.component';
+import { ServicesSingle4Component } from './pages/services/services-single4/services-single4.component';
+import { TermsComponent } from './pages/terms/terms/terms.component';
+import { PrivacyComponent } from './pages/privacy/privacy/privacy.component';
+
 
 const routes: Routes = [
   //  { path: '', redirectTo: 'core/home', pathMatch: 'full' },
@@ -52,6 +63,7 @@ const routes: Routes = [
       { path: 'core/press', component: PressComponent },
       { path: 'core/sitempa', component: SitemapComponent },
       { path: 'core/elements', component: ElementsComponent },
+      { path: 'core/portfolio1', component: Portfolio1columnComponent },
       { path: 'core/portfolio2', component: Portfolio2columnComponent },
       { path: 'core/portfolio3', component: Portfolio3columnComponent },
       { path: 'core/portfolio4', component: Portfolio4columnComponent },
@@ -66,6 +78,15 @@ const routes: Routes = [
       { path: 'core/single-post', component: SinglePostComponent },
       { path: 'core/contact-1', component: Contact1Component },
       { path: 'core/contact-2', component: Contact2Component },
+      { path: 'core/team1', component: Team1Component },
+      { path: 'core/team2', component: Team2Component },
+      { path: 'core/team-single', component: TeamSingleComponent },
+      { path: 'core/services-single1', component: ServicesSingle1Component },
+      { path: 'core/services-single2', component: ServicesSingle2Component },
+      { path: 'core/services-single3', component: ServicesSingle3Component },
+      { path: 'core/services-single4', component: ServicesSingle4Component },
+      { path: 'core/terms', component: TermsComponent },
+      { path: 'core/privacy', component: PrivacyComponent },
     // ]
   // },
 
